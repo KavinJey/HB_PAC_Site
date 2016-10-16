@@ -1,0 +1,61 @@
+body {
+  background-color: #e4d5e8;
+}
+
+.navbar-default {
+    background-color: #3a4d66;
+    border-color: #3a4d66;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-property: color;
+    color: #a164b8;
+    background-color: #3a4d66;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #a164b8;
+    background-color: #3a4d66;
+}
+
+.navbar-default .navbar-text {
+    color: #a164b8;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #3a4d66;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #3a4d66;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+#logo {
+  position: absolute;
+  top: 2px;
+}
+
+a:hover {
+
+}
