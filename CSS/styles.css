@@ -1,5 +1,5 @@
 body {
-  background-color: #e4d5e8;
+  background-color: #b3b3b3;
 }
 
 .navbar-default {
@@ -58,4 +58,24 @@ body {
 
 a:hover {
 
+}
+
+
+.background-image {
+  margin-top:-10%;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.text_fade > a {
+background-color: #FFF;
+}
+
+.text_fade > a:hover {
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-property: color;
+  color: #a164b8;
 }
