@@ -1,19 +1,19 @@
 body {
-<<<<<<< HEAD
+
   background-color: #b3b3b3;
 }
 
 .navbar-default {
     background-color: #3a4d66;
     border-color: #3a4d66;
-=======
+
   background-color: #3f454a;
 }
 
 .navbar-default {
     background-color: #4b56bb;
     border-color: #4b56bb;
->>>>>>> Aukiha-master
+
     border-radius: 0;
 }
 
@@ -33,22 +33,22 @@ body {
     transition-timing-function: ease-in-out;
     transition-property: color;
     color: #a164b8;
-<<<<<<< HEAD
+
     background-color: #3a4d66;
-=======
+
     background-color: #4b56bb;
->>>>>>> Aukiha-master
+
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
     color: #a164b8;
-<<<<<<< HEAD
+
     background-color: #3a4d66;
-=======
+
     background-color: #4b56bb;
->>>>>>> Aukiha-master
+
 }
 
 .navbar-default .navbar-text {
@@ -56,20 +56,20 @@ body {
 }
 
 .navbar-default .navbar-toggle {
-<<<<<<< HEAD
+
     border-color: #3a4d66;
-=======
+
     border-color: #4b56bb;
->>>>>>> Aukiha-master
+
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-<<<<<<< HEAD
+
     background-color: #3a4d66;
-=======
+
     background-color: #4b56bb;
->>>>>>> Aukiha-master
+
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -81,14 +81,14 @@ body {
   top: 2px;
 }
 
-<<<<<<< HEAD
+
 a:hover {
 
 }
 
 
 .background-image {
-=======
+
 a:link,
 a:visited,
 a:hover {
@@ -99,7 +99,7 @@ a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
->>>>>>> Aukiha-master
+
   margin-top:-10%;
 }
 
@@ -108,11 +108,11 @@ a:hover {
 }
 
 .text_fade > a {
-<<<<<<< HEAD
+
 background-color: #FFF;
 =======
   color: #5e6be5;
->>>>>>> Aukiha-master
+
 }
 
 .text_fade > a:hover {
@@ -121,7 +121,7 @@ background-color: #FFF;
   transition-property: color;
   color: #a164b8;
 }
-<<<<<<< HEAD
+
 =======
 
 h1 {
@@ -132,4 +132,4 @@ h1 {
 .panel-default {
   background-color: #3f454a;
 }
->>>>>>> Aukiha-master
+
