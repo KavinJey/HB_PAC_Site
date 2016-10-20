@@ -1,19 +1,10 @@
 body {
-
-  background-color: #b3b3b3;
-}
-
-.navbar-default {
-    background-color: #3a4d66;
-    border-color: #3a4d66;
-
   background-color: #3f454a;
 }
 
 .navbar-default {
     background-color: #4b56bb;
     border-color: #4b56bb;
-
     border-radius: 0;
 }
 
@@ -33,22 +24,14 @@ body {
     transition-timing-function: ease-in-out;
     transition-property: color;
     color: #a164b8;
-
-    background-color: #3a4d66;
-
     background-color: #4b56bb;
-
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
     color: #a164b8;
-
-    background-color: #3a4d66;
-
     background-color: #4b56bb;
-
 }
 
 .navbar-default .navbar-text {
@@ -56,20 +39,12 @@ body {
 }
 
 .navbar-default .navbar-toggle {
-
-    border-color: #3a4d66;
-
     border-color: #4b56bb;
-
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-
-    background-color: #3a4d66;
-
     background-color: #4b56bb;
-
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -81,14 +56,6 @@ body {
   top: 2px;
 }
 
-
-a:hover {
-
-}
-
-
-.background-image {
-
 a:link,
 a:visited,
 a:hover {
@@ -99,7 +66,6 @@ a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
   margin-top:-10%;
 }
 
@@ -108,11 +74,7 @@ a:hover {
 }
 
 .text_fade > a {
-
-background-color: #FFF;
-=======
   color: #5e6be5;
-
 }
 
 .text_fade > a:hover {
@@ -122,8 +84,6 @@ background-color: #FFF;
   color: #a164b8;
 }
 
-=======
-
 h1 {
   text-decoration: none;
   color: #FFF;
@@ -132,4 +92,3 @@ h1 {
 .panel-default {
   background-color: #3f454a;
 }
-
