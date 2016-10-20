@@ -6,7 +6,7 @@ Built off of http://hbperformingartsc.wixsite.com/hbpac
 Made to replace and be more efficient than existing site. 
 - Implement system to update board and create announcements
 - Cleaner, effective website
-<<<<<<< HEAD
+
 
 Address: 415 Great Lakes Dr, 
 Brampton, Ontario 
@@ -14,8 +14,7 @@ L6R2Z4
 
 Email: 
 hbperformingartsc@gmail.com
-=======
+
 Address: 415 Great Lakes Dr, Brampton, Ontario L6R2Z4
 
 Email: hbperformingartsc@gmail.com
->>>>>>> Aukiha-master
