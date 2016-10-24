@@ -89,12 +89,14 @@ h1 {
   color: #FFF;
 }
 
-.panel-default {
-  background-color: #3f454a;
-}
-
 #glory-text {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 5em;
-  margin: -15%;
+  margin-top: -15%;
+}
+
+.box {
+  margin: auto;
+  margin-top: 2%;
+  background-color: #4a5259 ;
 }
