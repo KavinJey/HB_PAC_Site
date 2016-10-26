@@ -14,7 +14,3 @@ L6R2Z4
 
 Email: 
 hbperformingartsc@gmail.com
-
-Address: 415 Great Lakes Dr, Brampton, Ontario L6R2Z4
-
-Email: hbperformingartsc@gmail.com
