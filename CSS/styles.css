@@ -92,13 +92,13 @@ h1 {
 #glory-text {
   font-family: 'Roboto', sans-serif;
   font-size: 7em;
-  margin-top: -2em;
+  margin-top: -0.9em;
+  align-content: center;
 }
 
 .box {
   padding: inherit;
-  margin-top: -2em;
-  background-color: #4a5259 ;
+  background-color: #4a5259;
 }
 
 .accent {
