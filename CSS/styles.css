@@ -1,5 +1,5 @@
 body {
-  background-color: #3f454a;
+  background-color: #272739;
 }
 
 .navbar-default {
@@ -98,12 +98,21 @@ h1 {
 
 .box {
   padding: inherit;
-  background-color: #4a5259;
+  background-color: #2b333a;
 }
 
-.accent {
-  width: 1em;
-  length: 2em;
-  height: 1em;
-  background: #9B5CBC;
+.box2 {
+    margin-top: 2em;
+    background-color: #2b333a;
+}
+
+#box {
+  border: 1px solid white;
+}
+
+.image-margins {
+  height: auto;
+  width: inherit;
+  margin-top: inherit;
+  margin-bottom: 2em;
 }
