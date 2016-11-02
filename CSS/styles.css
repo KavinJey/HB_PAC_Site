@@ -60,6 +60,7 @@ a:link,
 a:visited,
 a:hover {
   text-decoration: none;
+  color: #FFF;
 }
 
 .background-image {
@@ -67,14 +68,12 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   margin-top:-10%;
-}
-
-.text_center {
-  text-align: center;
+  width: auto;
+  height: 100%;
 }
 
 .text_fade > a {
-  color: #5e6be5;
+  color: #FFF;
 }
 
 .text_fade > a:hover {
@@ -102,17 +101,20 @@ h1 {
 }
 
 .box2 {
-    margin-top: 2em;
-    background-color: #2b333a;
-}
-
-#box {
+  text-align: center;
   border: 1px solid white;
+  margin: auto;
 }
 
-.image-margins {
-  height: auto;
-  width: inherit;
-  margin-top: inherit;
-  margin-bottom: 2em;
+
+#picture {
+  float: left;
+  width: 50%;
+
+}
+
+#text  {
+  float: right;
+  width: 50%
+
 }
