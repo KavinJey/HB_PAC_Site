@@ -2,10 +2,6 @@ body {
   background-color: #272739;
 }
 
-h1 {
-  text-decoration: none;
-  color: #FFF;
-}
 
 .navbar-default {
     background-color: #4b56bb;
@@ -69,16 +65,10 @@ a:hover {
 }
 
 .background-image {
-  margin-bottom: -10%;
   margin-top: -15%;
-  display: block;
-  max-height: 100%;
-  max-width: 100%;
-  z-index: -2;
-}
+  margin-bottom: -12%; 
+  overflow: hidden;
 
-.img-wrapper {
-  position: relative;
 }
 
 .text_fade > a {
@@ -92,48 +82,9 @@ a:hover {
   color: #a164b8;
 }
 
-.box {
-  padding: inherit;
-  background-color: #2b333a;
-}
-
-.box2 {
-  text-align: center;
-  border: 1px solid white;
-  margin: auto;
-}
-
-.main-left-col {
-    background:#fff;
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
-}
-
-.main-right-col {
-    background:#eee;
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
-}
-
-#column-wrap {
-    overflow: hidden;
-}
-
-#picture {
-  float: left;
-  width: 50%;
-
-}
-
-#text  {
-  float: right;
-  width: 50%
-
-}
-
-#logo {
-  position: absolute;
-  top: 2px;
+h1 {
+  text-decoration: none;
+  color: #FFF;
 }
 
 #glory-text {
@@ -153,21 +104,6 @@ a:hover {
   margin: auto;
 }
 
-.main-left-col {
-    background:#fff;
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
-}
-
-.main-right-col {
-    background:#eee;
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
-}
-
-#column-wrap {
-    overflow: hidden;
-}
 
 #picture {
   float: left;
@@ -179,19 +115,4 @@ a:hover {
   float: right;
   width: 50%
 
-}
-
-#logo {
-  position: absolute;
-  top: 2px;
-}
-
-#glory-text {
-  font-family: 'Roboto', sans-serif;
-  font-size: 7em;
-  align-content: center;
-}
-
-#z-property {
-  z-index: 1;
 }
