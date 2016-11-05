@@ -2,6 +2,10 @@ body {
   background-color: #272739;
 }
 
+h1 {
+  text-decoration: none;
+  color: #FFF;
+}
 
 .navbar-default {
     background-color: #4b56bb;
@@ -52,11 +56,6 @@ body {
     background-color: #FFF;
 }
 
-#logo {
-  position: absolute;
-  top: 2px;
-}
-
 a:link,
 a:visited,
 a:hover {
@@ -65,10 +64,16 @@ a:hover {
 }
 
 .background-image {
+  margin-bottom: -10%;
   margin-top: -15%;
-  margin-bottom: -12%; 
-  overflow: hidden;
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+  z-index: -2;
+}
 
+.img-wrapper {
+  position: relative;
 }
 
 .text_fade > a {
@@ -82,17 +87,6 @@ a:hover {
   color: #a164b8;
 }
 
-h1 {
-  text-decoration: none;
-  color: #FFF;
-}
-
-#glory-text {
-  font-family: 'Roboto', sans-serif;
-  font-size: 7em;
-  align-content: center;
-}
-
 .box {
   padding: inherit;
   background-color: #2b333a;
@@ -104,6 +98,21 @@ h1 {
   margin: auto;
 }
 
+.main-left-col {
+    background:#fff;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.main-right-col {
+    background:#eee;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+#column-wrap {
+    overflow: hidden;
+}
 
 #picture {
   float: left;
@@ -115,4 +124,19 @@ h1 {
   float: right;
   width: 50%
 
+}
+
+#logo {
+  position: absolute;
+  top: 2px;
+}
+
+#glory-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 7em;
+  align-content: center;
+}
+
+#z-property {
+  z-index: 1;
 }
