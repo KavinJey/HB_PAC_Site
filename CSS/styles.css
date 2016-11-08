@@ -63,13 +63,9 @@ a:hover {
   color: #FFF;
 }
 
-.background-image {
-  margin-bottom: -10%;
-  margin-top: -15%;
-  display: block;
-  max-height: 100%;
-  max-width: 100%;
-  z-index: -2;
+.box {
+  padding: inherit;
+  background-color: #2b333a;
 }
 
 .img-wrapper {
@@ -87,32 +83,21 @@ a:hover {
   color: #a164b8;
 }
 
-.box {
+.imagebox {
   padding: inherit;
-  background-color: #2b333a;
+  display: block;
+  max-width: 100%;
+  max-height: auto;
+
 }
 
-.box2 {
-  text-align: center;
-  border: 1px solid white;
-  margin: auto;
+.textbox {
+  font-family 'Roboto', sans-serif;
+  font-size: 3em;
+  color: #FFF;
 }
 
-.main-left-col {
-    background:#fff;
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
-}
 
-.main-right-col {
-    background:#eee;
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
-}
-
-#column-wrap {
-    overflow: hidden;
-}
 
 #picture {
   float: left;
@@ -129,6 +114,8 @@ a:hover {
 #logo {
   position: absolute;
   top: 2px;
+  width: auto;
+  height: 100%
 }
 
 #glory-text {
@@ -139,4 +126,13 @@ a:hover {
 
 #z-property {
   z-index: 1;
+}
+
+#background-image {
+  margin-bottom: -10%;
+  margin-top: -15%;
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+  z-index: -2;
 }
