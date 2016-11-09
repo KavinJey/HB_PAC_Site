@@ -1,20 +1,28 @@
-<html>
+<html lang="en">
 
 
 <head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 <title> HBPAC </title>
 
 <!-- Bootstrap -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 <!-- CSS for index -->
 <link rel="stylesheet" href="../../CSS/styles.css">
 
-<style> p {
-            margin: 8%;
-          }
-</style>
+<!-- Javascript -->
+<script type="text/javascript" src="javascript.js"></script>
+
+
 
 </head>
 
@@ -23,53 +31,79 @@
   <!-- Container for viewport -->
 <div class="container-fluid">
 
-  <!-- Bar for navigation includes main bar for  {Home, Departments and Contact} -->
-  <nav class="navbar navbar-default navbar-fixed" id="z-property" role="navigation">
-    <div class="container-fluid">
-      <!-- Logo -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/index.html">
-          <img id="logo" src="../../images/brand.png" width="auto" height="100%">
-        </a>
-      </div>
+    <!-- Bar for navigation includes main bar for  {Home, Departments and Contact} -->
+    <nav class="navbar navbar-default navbar-fixed" id="z-property" role="navigation">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/index.html">
+            <img id="logo" src="../../images/brand.png" width="4%" height="100%">
+          </a>
+        </div>
 
-      <!-- Deparments/About/Contacts -->
-      <div class="collapse navbar-collapse navbar-right" id="mynavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="departments/departments.html">Meet The Team</a></li>
-          <li><a href="departments/about.html">About</a></li>
-          <li><a href="departments/contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-    <div id="column-wrap">
-        <div class="container-fluid">
-          <div class="row">
-          <div class="col-md-4 main-right-col textbox">
-            <p> PAC&#39;s Dance/Hip-Hop team includes a group of extremely passionate dancers,
-              who are able to communicate the skill of hip-hop culture through the use of
-              innovative styles and techniques.  </p>
-
-          </div>
-
-          <div  class="col-md-8 main-left-col imagebox">
-            <div class="img-wrapper">
-            <img src="../../images/Dance_Team.JPG" alt="Dance Team" />
-            </div>
-          </div>
+        <!-- Deparments/About/Contacts -->
+        <div class="collapse navbar-collapse navbar-right" id="mynavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="departments/departments.html">Departments</a></li>
+            <li><a href="departments/about.html">About</a></li>
+            <li><a href="departments/contact.html">Contact</a></li>
+          </ul>
         </div>
       </div>
-     </div>
-
+    </nav>
 </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 col-xs-12">
+        <img class="img-responsive" src="../../images/Dance_Team.JPG" alt="Dance Team Image"/>
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="row">
+             <div class="col-md-12 col-xs-12">
+               <h1 class="col-md-12 textbox"> Upcoming Performances </h1>
+             </div>
+            </div>
+      <ul>
+        <div class="row">
+          <div class="col-md-12 col-xs-12">
+            <li class="text2"> Lorem ipsum dolor sit amet. </li>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-xs-12">
+            <li class="text2"> Lorem ipsum dolor sit amet. </li>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-xs-12">
+            <li class="text2"> Lorem ipsum dolor sit amet. </li>
+          </div>
+        </div>
+        </div>
+          </div>
+      </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-xs-12">
+        <h2 class="text1"> The Performing Art's Committe's Dance/Hip-Hop team includes a group of extremely passionate dancers, who are able to communicate the skill of hip-hop culture through the use of innovative styles and techniques.   </h2>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 </body>

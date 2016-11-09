@@ -83,33 +83,19 @@ a:hover {
   color: #a164b8;
 }
 
-.imagebox {
-  padding: inherit;
-  display: block;
-  max-width: 100%;
-  max-height: auto;
-
-}
-
-.textbox {
+.text1 {
   font-family 'Roboto', sans-serif;
-  font-size: 3em;
+  font-size: 2.5em;
   color: #FFF;
+  text-align: justify;
+  margin: 1%;
 }
 
-
-
-#picture {
-  float: left;
-  width: 50%;
-
+.text2 {
+  font-size: 2em;
+  color: #FFF
 }
 
-#text  {
-  float: right;
-  width: 50%
-
-}
 
 #logo {
   position: absolute;
@@ -122,6 +108,7 @@ a:hover {
   font-family: 'Roboto', sans-serif;
   font-size: 7em;
   align-content: center;
+  text-align: center;
 }
 
 #z-property {
@@ -135,4 +122,8 @@ a:hover {
   max-height: 100%;
   max-width: 100%;
   z-index: -2;
+}
+
+#list {
+  list-style: none;
 }
