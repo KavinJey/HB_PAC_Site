@@ -9,7 +9,7 @@ h1 {
 }
 
 p {
-  font-family 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #FFF;
 }
 .navbar-default {
@@ -74,6 +74,20 @@ a:hover {
   margin-bottom: 2%;
 }
 
+.box2 {
+  padding: 1%;
+  background-color: #2b333a;
+  margin-top: 2%;
+  box-sizing:inherit;
+}
+
+.box3 {
+  padding: 1%;
+  background-color: #2b333a;
+  margin-top: 2%;
+  box-sizing:inherit;
+}
+
 .img-wrapper {
   position: relative;
 }
@@ -90,7 +104,7 @@ a:hover {
 }
 
 .text1 {
-  font-family 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 2.5em;
   color: #FFF;
   text-align: justify;
@@ -98,8 +112,17 @@ a:hover {
 }
 
 .text2 {
+  font-family: 'Roboto', sans-serif;
   font-size: 2em;
   color: #FFF
+}
+
+.text3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  color: #FFF;
+  text-align: left;
+  margin: 1%;
 }
 
 .footer{
