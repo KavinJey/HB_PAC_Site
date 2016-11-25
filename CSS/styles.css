@@ -186,6 +186,28 @@ a:hover {
   float: left;
 }
 
+canvas {
+    border: 1px #272739;
+}
+
+.text_center {
+    align-content: center;
+}
+
+.text_bold {
+  font-weight: 900;
+  font-size: 4em;
+}
+
+.Fixed {
+  position: fixed;
+  top: 500px;
+}
+
+.Increased_Font {
+  font-size: 3em;
+}
+
 #logo {
   position: absolute;
   top: 2px;

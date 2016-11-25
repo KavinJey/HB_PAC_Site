@@ -2,7 +2,8 @@
 
 
 <head>
-
+  
+<meta name="google-site-verification" content="wpVtv0tfYqiRZGLLweiK_q34qUh5i4MoxHtNh9piVnM" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -18,6 +19,8 @@
 
 <!-- CSS for index -->
 <link rel="stylesheet" href="CSS/styles.css">
+<link rel="stylesheet" href="css/styles.css"
+<link href="css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Javascript -->
 <script type="text/javascript" src="javascript.js"></script>
@@ -95,47 +98,157 @@
 
       </div>
 
-
-
-      <div class="container-fluid">
+      <div class="container-fluid" id="Departments">
         <div class="box">
-
           <div class="row">
-            <h1 class="col-md-4 text_fade"> Our Departments </h1>
+            <h2 class="col-md-3 col-xs-4">
+              <canvas id="OurDepartmentsBox" width="100" height="10"></canvas>
+              <script>
+                var canvas = document.getElementById('OurDepartmentsBox');
+                var context = canvas.getContext('2d');
+
+                context.beginPath();
+                context.rect(0, 0, 50, 10);
+                context.fillStyle = '#FFF';
+                context.fill();
+                context.lineWidth = 4;
+                context.strokeStyle = '#FFF';
+                context.stroke();
+              </script>
+            </h2>
+
           </div>
-
           <div class="row">
+            <h1 class="col-md-3 col-xs-12 text_bold">
+              Our Departments
+            </h1>
+            <h2 class="col-md-3 col-xs-12 text_fade">
+            </h2>
+           </div>
+          <div class="row">
+            <h2 class="col-md-3 col-xs-12">
+              <canvas id="SingersBox" width="100" height="10"></canvas>
+              <script>
+                var canvas = document.getElementById('SingersBox');
+                var context = canvas.getContext('2d');
 
-            <h2 class="col-md-4 text_fade"><a href="departments/depo/spoken.html"> Spoken Word </a> </h2>
+                context.beginPath();
+                context.rect(0, 0, 50, 10);
+                context.fillStyle = '#4b56bb';
+                context.fill();
+                context.lineWidth = 4;
+                context.strokeStyle = '#4b56bb';
+                context.stroke();
+              </script>
+            </h2>
+            <h2 class="col-md-3 col-xs-12">
+              <canvas id="SpokenWordBox" width="100" height="10"></canvas>
+              <script>
+                var canvas = document.getElementById('SpokenWordBox');
+                var context = canvas.getContext('2d');
 
-            <h2 class="col-md-4 text_fade"><a href="departments/depo/singers.html"> Singers </a> </h2>
-
-            <h2 class="col-md-4 text_fade"><a href="departments/depo/executive.html"> Executive </a> </h2>
-
+                context.beginPath();
+                context.rect(0, 0, 50, 10);
+                context.fillStyle = '#4b56bb';
+                context.fill();
+                context.lineWidth = 4;
+                context.strokeStyle = '#4b56bb';
+                context.stroke();
+              </script>
+            </h2>
           </div>
-
           <div class="row">
-              <div>
-            <h2 class="col-md-4 text_fade"><a href="departments/depo/production.html"> Production </a> </h2>
-            </div>
+            <h2 class="col-md-3 col-xs-12 text_fade Increased_Font">
+              <a href="departments/depo/singers.html">Singers</a>
+            </h2>
+            <h2 class="col-md-3 col-xs-12 text_fade Increased_Font">
+              <a href="departments/depo/spoken.html">Spoken Word</a>
+            </h2>
+          </div>
+          <div class="row">
+            <h2 class="col-md-3 col-xs-12">
+              <canvas id="ProductionBox" width="100" height="10"></canvas>
+              <script>
+                var canvas = document.getElementById('ProductionBox');
+                var context = canvas.getContext('2d');
 
+                context.beginPath();
+                context.rect(0, 0, 50, 10);
+                context.fillStyle = '#4b56bb';
+                context.fill();
+                context.lineWidth = 4;
+                context.strokeStyle = '#4b56bb';
+                context.stroke();
+              </script>
+            </h2>
+            <h2 class="col-md-3 col-xs-12">
+              <canvas id="DanceBox" width="100" height="10"></canvas>
+              <script>
+                var canvas = document.getElementById('DanceBox');
+                var context = canvas.getContext('2d');
 
-            <h2 class="col-md-4 text_fade"><a href="departments/depo/dance.html"> Dance </a> </h2>
+                context.beginPath();
+                context.rect(0, 0, 50, 10);
+                context.fillStyle = '#4b56bb';
+                context.fill();
+                context.lineWidth = 4;
+                context.strokeStyle = '#4b56bb';
+                context.stroke();
+              </script>
+            </h2>
+            <h2 class="col-md-3 col-xs-12">
+              <canvas id="BhangraBox" width="100" height="10"></canvas>
+              <script>
+                var canvas = document.getElementById('BhangraBox');
+                var context = canvas.getContext('2d');
 
-            <h2 class="col-md-4 text_fade"><a href="departments/depo/cultural.html"> Bhangra &amp; Giddha</a> </h2>
+                context.beginPath();
+                context.rect(0, 0, 50, 10);
+                context.fillStyle = '#4b56bb';
+                context.fill();
+                context.lineWidth = 4;
+                context.strokeStyle = '#4b56bb';
+                context.stroke();
+              </script>
+            </h2>
+            <h2 class="col-md-3 col-xs-12">
+              <canvas id="ExecutiveBox" width="100" height="10"></canvas>
+              <script>
+                var canvas = document.getElementById('ExecutiveBox');
+                var context = canvas.getContext('2d');
+
+                context.beginPath();
+                context.rect(0, 0, 50, 10);
+                context.fillStyle = '#4b56bb';
+                context.fill();
+                context.lineWidth = 4;
+                context.strokeStyle = '#4b56bb';
+                context.stroke();
+              </script>
+            </h2>
+          </div>
+          <div class="row">
+            <h2 class="col-md-3 col-xs-12 text_fade Increased_Font">
+              <a href="departments/depo/production.html">Production</a>
+            </h2>
+            <h2 class="col-md-3 col-xs-12 text_fade Increased_Font">
+              <a href="departments/depo/dance.html">Dance</a>
+            </h2>
+            <h2 class="col-md-3 col-xs-12 text_fade Increased_Font"><a href="departments/depo/cultural.html"> Bhangra &amp; Giddha</a>
+            </h2>
+            <h2 class="col-md-3 col-xs-12 text_fade Increased_Font">
+              <a href="departments/depo/executive.html">Executive</a>
+            </h2>
 
            </div>
-
         </div>
       </div>
 
       <div class="container-fluid">
-        <footer class="extendfull footer">
-          <div class="row">
-            <div class="col-md-6 col-xs-6">
-              <p>
+          <div class="row extendfull footer">
+            <div class="col-md-6 col-xs-4">
                 <a class"" href="http://www.hbpac.club">
-                  <img class="icon" src="images/brand.png"/>
+                  <img class="icon" src="images/brand.png"/> </a>
                   <p class="">
                     <small>
                       HBPAC &copy; 2016
@@ -145,7 +258,7 @@
                       </small>
                     </p>
                   </div>
-                  <div class="col-md-6 col-xs-6 text-right spacing">
+                  <div class="col-md-6 col-xs-4 text-right spacing">
                     <ul class="list-inline">
                       <li> <a href="https://www.instagram.com/hb_pac/" class="btn btn-lg"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i> </a> </li>
                       <li> <a href="https://www.youtube.com/channel/UCSiYzZbr4e1KwwDMA8F4q7A" class="btn btn-lg"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i> </a> </li>
@@ -158,12 +271,21 @@
                     </ul>
 
                   </div>
-
                 </div>
-              </footer>
             </div>
 
+<!-- jQuery Version 1.11.1 -->
+<script src="js/jquery.js"></script>
 
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrolling-nav.js"></script>
 
 
 
