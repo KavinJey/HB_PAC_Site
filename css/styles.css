@@ -1,6 +1,6 @@
 body {
   background-color: #272739;
-
+  overflow-x: hidden;
 }
 
 h1 {
@@ -30,6 +30,10 @@ h4 {
 p {
   font-family: 'Roboto', sans-serif;
   color: #FFF;
+  font-size: 2em;
+  font-size: 2.5vh;
+  text-align: center;
+  padding: 15px;
 }
 .navbar-default {
     background-color: #5a406d;
@@ -205,15 +209,15 @@ canvas {
 .Increased_Font {
   font-size: 3em;
 }
+
 .wrapper {
   overflow-x: hidden;
 }
 
 #logo {
   position: absolute;
-  top: 2px;
-  width: auto;
-  height: 100%;
+  width: 4.5em;
+  height: auto;
 }
 
 #glory-text {
@@ -238,4 +242,20 @@ canvas {
 
 #list {
   list-style: none;
+}
+
+/* Mobile capatibility query bc ur a dork */
+@media (max-width: 768px){
+
+  .icon {
+    position: absolute;
+    width: 65%;
+    height: auto;
+  }
+
+  .logotext {
+    text-align: left;
+    margin-top: 50%;
+  }
+
 }
