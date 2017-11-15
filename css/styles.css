@@ -116,6 +116,11 @@ a:hover {
   margin: 4%;
 }
 
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
 #glory-text {
   font-family: 'Roboto', sans-serif;
   font-size: 6.5em;
