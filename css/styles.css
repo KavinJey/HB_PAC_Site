@@ -23,6 +23,15 @@ canvas {
     border: 1px #272739;
 }
 
+.small {
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  font-size: 1vh;
+  font-size: 1em;
+  text-align: center;
+
+}
+
 .wrapper {
   overflow-x: hidden;
 }
