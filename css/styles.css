@@ -23,6 +23,11 @@ canvas {
     border: 1px #272739;
 }
 
+ul {
+  list-style-type: circle;
+  color: #83878e;
+}
+
 .small {
   font-family: 'Roboto', sans-serif;
   color: #FFF;
@@ -129,6 +134,22 @@ a:hover {
     padding-right:0;
     padding-left:0;
 }
+
+.line-separator{
+
+  height:1px;
+  background:#83878e;
+  border-bottom:1px solid #83878e;
+}
+
+.article-content {
+  font-size: 1em;
+  padding: 0px;
+  text-align: justify;
+
+}
+
+
 
 #glory-text {
   font-family: 'Roboto', sans-serif;
