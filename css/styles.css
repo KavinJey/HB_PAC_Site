@@ -4,10 +4,15 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4 {
+h1 {
+  font-family: 'Bree Serif', serif;
+  color: #FFF;
+}
+
+h2, h3, h4 {
   text-decoration: none;
   color: #FFF;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arvo', serif;
 }
 
 p {
@@ -141,7 +146,6 @@ a:hover {
 }
 
 .line-separator{
-
   height:1px;
   background:#83878e;
   border-bottom:1px solid #83878e;
@@ -174,13 +178,6 @@ a:hover {
   background: rgba(0,0,0,0.5);
 
 
-}
-
-#glory-text {
-  font-family: 'Roboto', sans-serif;
-  font-size: 6.5em;
-  align-content: center;
-  text-align: center;
 }
 
 #z-property {
