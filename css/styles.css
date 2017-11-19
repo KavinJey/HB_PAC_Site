@@ -4,25 +4,7 @@ body {
   width: 100%;
 }
 
-h1 {
-  text-decoration: none;
-  color: #FFF;
-  font-family: 'Roboto', sans-serif;
-}
-
-h2 {
-  text-decoration: none;
-  color: #FFF;
-  font-family: 'Roboto', sans-serif;
-}
-
-h3 {
-  text-decoration: none;
-  color: #FFF;
-  font-family: 'Roboto', sans-serif;
-}
-
-h4 {
+h1, h2, h3, h4 {
   text-decoration: none;
   color: #FFF;
   font-family: 'Roboto', sans-serif;
@@ -39,6 +21,20 @@ p {
 
 canvas {
     border: 1px #272739;
+}
+
+ul {
+  list-style-type: circle;
+  color: #83878e;
+}
+
+.small {
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  font-size: 1vh;
+  font-size: 1em;
+  text-align: center;
+
 }
 
 .wrapper {
@@ -133,6 +129,27 @@ a:hover {
   max-height: 50%;
   margin: 4%;
 }
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.line-separator{
+
+  height:1px;
+  background:#83878e;
+  border-bottom:1px solid #83878e;
+}
+
+.article-content {
+  font-size: 1em;
+  padding: 0px;
+  text-align: justify;
+
+}
+
+
 
 #glory-text {
   font-family: 'Roboto', sans-serif;
