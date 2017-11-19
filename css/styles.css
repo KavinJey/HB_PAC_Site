@@ -156,7 +156,22 @@ a:hover {
 
 .profile {
 
-  border:1px solid #83878e;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  background: rgba(0,0,0,0.2);
+  max-width: 500px;
+  margin: auto;
+  padding: 10%;
+  text-align: center;
+  align-content: center;
+  height: 80%;
+  transition: 0.5s;
+
+
+}
+
+.profile:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  background: rgba(0,0,0,0.5);
 
 
 }
@@ -207,6 +222,12 @@ a:hover {
 
   i {
     margin-left: -6%;
+  }
+
+  .profile {
+    min-height: 80%;
+    height: auto;
+    margin-bottom: 4%;
   }
 
 }
