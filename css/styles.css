@@ -162,12 +162,12 @@ a:hover {
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   background: rgba(0,0,0,0.2);
-  max-width: 500px;
+  max-width: auto;
   margin: auto;
   padding: 10%;
   text-align: center;
   align-content: center;
-  height: 80%;
+  height: 100%;
   transition: 0.5s;
 
 
