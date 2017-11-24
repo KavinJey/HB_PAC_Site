@@ -22,9 +22,12 @@
 
   <!-- Javascript -->
   <script type="text/javascript" src="javascript.js"></script>
+  <script type="text/javascript" src="fadein.js"></script>
   <script src="https://use.fontawesome.com/e2ea768ee0.js"></script>
 
 
+  <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+  <script src="js/fadein.js"></script>
 
 </head>
 
@@ -75,21 +78,20 @@
 
         <div class="col-sm-4 col-md-4 ">
           <div class="profile">
-            <img class="img-circle img-responsive" width="100%" src="images/heads/production.JPG">
+            <img class="img-circle img-responsive" id="simratPic" width="100%" src="images/heads/production.JPG">
             <h1> Simrat Bains </h1>
             <h4> Production Co-ordinator </h4>
-            <p class="article-content"> Simrat has several years of experience and a passion for shooting as well as directing movies and short films. Through his experience he helps the HB-PAC and Production Team organize and handle videos. </p>
+            <p class="article-content" id="simratProfile" style="display:none"> Simrat has several years of experience and a passion for shooting as well as directing movies and short films. Through his experience he helps the HB-PAC and Production Team organize and handle videos. </p>
             <a href="departments/production.html"><p> <u> Production Team <u> </p></a>
-          </div>
 
         </div>
 
         <div class="col-sm-4 col-md-4">
           <div class="profile">
-            <img class="img-circle img-responsive" width="100%" src="images/heads/dance.JPG">
+            <img class="img-circle img-responsive" id="rupreetPic" width="100%" src="images/heads/dance.JPG">
             <h1> Rupreet Kaur </h1>
             <h4> Dance Co-ordinator </h4>
-            <p class="article-content"> Rupreet Kaur through gained experience leads the 2016-2017 Dance Team. Rupreet has been dancing for her entire life and brings a lot of hip-hop, cultural, and folk dancing experience to the table.  </p>
+            <p class="article-content" id="rupreetProfile" style="display:none"> Rupreet Kaur through gained experience leads the 2016-2017 Dance Team. Rupreet has been dancing for her entire life and brings a lot of hip-hop, cultural, and folk dancing experience to the table.  </p>
             <a href="departments/dance.html"><p><u> Dance Team <u></p></a>
           </div>
 
@@ -97,10 +99,10 @@
 
         <div class="col-sm-4 col-md-4 ">
           <div class="profile">
-            <img class="img-circle img-responsive" width="100%" src="images/heads/word.JPG">
+            <img class="img-circle img-responsive" width="100%" id="lisaPic" src="images/heads/word.JPG">
             <h1> Lisa </h1>
             <h4> Spoken Word Co-ordinator </h4>
-            <p class="article-content"> Lisa A, Spoken Word Coordinator, has been writing poems for most of her life and now at HB-PAC she helps others write as well as perform their poems to varying audiences. </p>
+            <p class="article-content" id="lisaProfile" style="display:none"> Lisa A, Spoken Word Coordinator, has been writing poems for most of her life and now at HB-PAC she helps others write as well as perform their poems to varying audiences. </p>
             <a href="departments/spoken.html"><p> <u> Spoken Word Team <u> </p> </a>
           </div>
 
@@ -111,30 +113,30 @@
 
         <div class="col-sm-4 col-md-4 ">
           <div class="profile">
-            <img class="img-circle img-responsive" width="100%" src="images/heads/singing.JPG">
+            <img class="img-circle img-responsive" width="100%" id="ameliaPic" src="images/heads/singing.JPG">
             <h1>  Amelia </h1>
             <h4> Vocals Co-ordinator </h4>
-            <p class="article-content"> Amelia Hoosain was the first singer to join PAC and has thus become the 2016-2017 PAC Singer Coordinator. She is an extremely talented singer and has missed no opportunity in taking to stage and singing her heart out. Amelia leads the other singers of PAC to great success this year!  </p>
+            <p class="article-content" id="ameliaProfile" style="display:none"> Amelia Hoosain was the first singer to join PAC and has thus become the 2016-2017 PAC Singer Coordinator. She is an extremely talented singer and has missed no opportunity in taking to stage and singing her heart out. Amelia leads the other singers of PAC to great success this year!  </p>
             <a href="departments/singers.html"><p> <u> Vocal Team <u> </p> </a>
           </div>
         </div>
 
         <div class="col-sm-4 col-md-4 ">
           <div class="profile">
-            <img class="img-circle img-responsive" width="100%" src="images/heads/bhangra.JPG">
+            <img class="img-circle img-responsive" width="100%" id="bobPic" src="images/heads/bhangra.JPG">
             <h1>  Rob </h1>
             <h4> Bhangra Co-ordinator </h4>
-            <p class="article-content"> Roby G. is the Bhangra Team captain for the 2016-2017 school year. He has had formal training in Bhangra for 6 years and is proud to be representing HB-PAC. </p>
+            <p class="article-content" id="bobProfile" style="display:none"> Roby G. is the Bhangra Team captain for the 2016-2017 school year. He has had formal training in Bhangra for 6 years and is proud to be representing HB-PAC. </p>
             <a href="departments/bhangra.html"><p> <u> Bhangra Team <u> </p></a>
           </div>
         </div>
 
         <div class="col-sm-4 col-md-4 ">
           <div class="profile">
-            <img class="img-circle img-responsive" width="100%" src="images/heads/giddha.JPG">
+            <img class="img-circle img-responsive" width="100%" id="manrosePic" src="images/heads/giddha.JPG">
             <h1> Manrose </h1>
             <h4> Giddha Co-ordinator </h4>
-            <p class="article-content">  Manrose Sekhon has 6 years of Giddha experience and through teamwork and leadership will lead this years Giddha team. </p>
+            <p class="article-content" id="manroseProfile" style="display:none">  Manrose Sekhon has 6 years of Giddha experience and through teamwork and leadership will lead this years Giddha team. </p>
             <a href="departments/giddha.html"><p><u> Giddha Team <u></p></a>
           </div>
         </div>
@@ -143,8 +145,6 @@
 
     </div> <!-- End of Main Container -->
     <!-- End of MAIN CONTENT -->
-
-
 
     <!-- Footer -->
     <div class="container-fluid">
