@@ -36,8 +36,8 @@ ul {
 i {
   margin-left: 4%;
   margin-right: 4%;
-
 }
+
 .small {
   font-family: 'Roboto', sans-serif;
   color: #FFF;
@@ -180,6 +180,10 @@ a:hover {
 
 }
 
+.article-content {
+  display: none;
+}
+
 #z-property {
   z-index: 1;
 }
@@ -226,5 +230,4 @@ a:hover {
     height: auto;
     margin-bottom: 4%;
   }
-
 }
