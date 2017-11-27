@@ -47,6 +47,10 @@ i {
 
 }
 
+.row {
+  z-index: 1;
+}
+
 .wrapper {
   overflow-x: hidden;
 }
@@ -184,8 +188,38 @@ a:hover {
   display: none;
 }
 
+#box1 {
+  position: absolute;
+  display: none;
+  margin-left: auto;
+  padding-left: 200px;
+  margin-top: -70%;
+  z-index: -30;
+  background-color: #5a406d;
+  width: 10000000px;
+}
+
 #z-property {
   z-index: 1;
+}
+
+#mangatPic {
+  z-index: 420;
+}
+
+#amanpreetPic {
+  position: relative;
+  z-index: 420;
+}
+
+#nishchayPic {
+  position: relative;
+  z-index: 420;
+}
+
+#charithPic {
+  position: relative;
+  z-index: 420;
 }
 
 #background-image {
