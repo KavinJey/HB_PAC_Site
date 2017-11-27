@@ -40,7 +40,7 @@ $(document).ready(function() {
       $("#charithPic").css("opacity", "0.6")
       $(".body").css("background-color", "#252530")
       $("#box1").fadeToggle();
-      $("#box1").animate({left: '100px'});
+      $("#box1").animate({left: '120px'});
       toggle = true;
     }
     else {
