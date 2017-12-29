@@ -180,6 +180,12 @@ a:hover {
 
 }
 
+.department-text{
+  text-align: left;
+  line-height: 160%;
+
+}
+
 #z-property {
   z-index: 1;
 }
