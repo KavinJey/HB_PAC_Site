@@ -1,11 +1,10 @@
 # HB_PAC_Site
 Site for Performing Arts Council at HB
+Built by Jeyakavin Jeyaranjan and Shane Williams 
 
-Built off of http://hbperformingartsc.wixsite.com/hbpac
+Helps the organization have a central place for all their content and their messages. 
 
-Made to replace and be more efficient than existing site. 
-- Implement system to update board and create announcements
-- Cleaner, effective website
+Update coming soon
 
 
 Address: 415 Great Lakes Dr, 
